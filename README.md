@@ -1,13 +1,8 @@
 <div align="center">
-  <img src="./assets/profile-banner.svg" alt="Hi, I'm Valenciana - A Web Developer in making" width="100%" />
+  <img src="./assets/profile-banner.svg" alt="Hi, I'm Valenciana" width="100%" />
 
   <br />
   <br />
-
-  <img src="https://komarev.com/ghpvc/?username=valenciana-nc&label=views&color=2bbc8a&style=flat" alt="profile views" />
-  <img src="https://img.shields.io/github/followers/valenciana-nc?label=followers&style=flat&color=2bbc8a&labelColor=30363d" alt="followers" />
-  <img src="https://img.shields.io/badge/connect-me-2bbc8a?style=flat&labelColor=30363d" alt="connect me" />
-</div>
 
 <br />
 
