@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./assets/profile-banner.svg" alt="Hi, I'm Valenciana" width="100%" />
+ 
 
   <br />
   <br />
