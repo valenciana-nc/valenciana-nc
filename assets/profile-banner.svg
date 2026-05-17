@@ -1,0 +1,64 @@
+<svg width="1000" height="360" viewBox="0 0 1000 360" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Hi, I'm Valenciana</title>
+  <desc id="desc">A sunset mountain banner with forest silhouettes and the text A Web Developer in making.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#5b4976" />
+      <stop offset="0.42" stop-color="#d15f5d" />
+      <stop offset="0.72" stop-color="#5f2c50" />
+      <stop offset="1" stop-color="#21193a" />
+    </linearGradient>
+    <radialGradient id="sun" cx="68%" cy="34%" r="28%">
+      <stop offset="0" stop-color="#ffe08b" stop-opacity="0.9" />
+      <stop offset="0.28" stop-color="#ff915e" stop-opacity="0.6" />
+      <stop offset="1" stop-color="#ff915e" stop-opacity="0" />
+    </radialGradient>
+    <linearGradient id="water" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#d99079" stop-opacity="0.9" />
+      <stop offset="1" stop-color="#6c395e" stop-opacity="0.95" />
+    </linearGradient>
+    <filter id="softGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="1.4" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1000" height="360" fill="#0d1117" />
+  <rect x="18" y="18" width="964" height="324" fill="url(#sky)" />
+  <rect x="18" y="18" width="964" height="324" fill="url(#sun)" />
+
+  <circle cx="676" cy="126" r="18" fill="#ffd07a" opacity="0.96" />
+
+  <path d="M18 188 L120 96 L206 190 L279 118 L376 191 L471 92 L574 196 L669 98 L760 193 L842 120 L982 192 L982 342 L18 342 Z" fill="#382445" opacity="0.48" />
+  <path d="M18 221 L145 143 L257 222 L361 150 L486 225 L607 139 L716 226 L824 149 L982 219 L982 342 L18 342 Z" fill="#2c203f" opacity="0.74" />
+
+  <path d="M386 255 C431 222 456 218 491 249 C523 279 585 281 627 246 C597 301 462 314 386 255 Z" fill="url(#water)" opacity="0.9" />
+  <path d="M398 263 C458 282 535 285 611 260 C575 302 452 302 398 263 Z" fill="#f0a180" opacity="0.32" />
+
+  <g fill="#1b1634" opacity="0.96">
+    <path d="M120 315 V102 L76 160 H100 L60 218 H91 L48 285 H91 L68 315 Z" />
+    <path d="M176 315 V132 L138 181 H158 L123 231 H149 L112 293 H151 L133 315 Z" />
+    <path d="M873 315 V111 L829 167 H854 L812 226 H844 L799 292 H842 L819 315 Z" />
+    <path d="M931 315 V89 L879 158 H908 L861 226 H898 L847 300 H895 L870 315 Z" />
+  </g>
+
+  <g fill="#21193a" opacity="0.98">
+    <path d="M18 342 L18 304 L54 304 L37 281 L70 281 L47 252 L81 252 L58 223 L95 223 L74 197 L113 197 L91 169 L141 238 L161 238 L136 266 L174 266 L145 294 L184 294 L164 342 Z" />
+    <path d="M982 342 L982 296 L943 296 L965 267 L928 267 L953 235 L918 235 L942 204 L902 204 L931 167 L880 236 L856 236 L881 265 L842 265 L871 295 L830 295 L851 342 Z" />
+  </g>
+
+  <g opacity="0.82" fill="#201934">
+    <rect x="455" y="232" width="7" height="62" rx="3" />
+    <path d="M459 238 C438 253 423 266 414 282 C439 272 452 260 459 238 Z" />
+    <path d="M460 239 C480 252 497 266 507 283 C482 273 468 261 460 239 Z" />
+    <path d="M459 255 C444 268 433 279 425 293 C445 286 455 274 459 255 Z" />
+  </g>
+
+  <text x="500" y="147" text-anchor="middle" fill="#f8e9dc" font-family="Courier New, monospace" font-size="34" font-weight="700" filter="url(#softGlow)">Hi, I'm Valenciana &#128075;</text>
+  <text x="500" y="194" text-anchor="middle" fill="#fff1e6" font-family="Courier New, monospace" font-size="30" font-weight="700" filter="url(#softGlow)">A Web Developer in making</text>
+
+  <rect x="18" y="18" width="964" height="324" fill="none" stroke="#17111f" stroke-width="8" opacity="0.62" />
+</svg>
