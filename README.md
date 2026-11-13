@@ -1,6 +1,6 @@
 <div align="center">
 
-  <img src="art/engraving.svg" alt="A classical figure rendered as an engraved ink illustration" width="100%" />
+  <img src="art/engraving.svg" alt="A classical figure rendered in thousands of ink dots" width="100%" />
 
   <br />
   <br />
